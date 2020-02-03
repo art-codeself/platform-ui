@@ -1,0 +1,319 @@
+{
+	"_name": "ja",
+	"_displayName":"日本语",
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "全画面",
+				"exit": "全画面を終了"
+			},
+			"header-log": {
+				"empty": "ログや例外はありません",
+				"error-length": " {length} 個の例外が含まれています",
+				"log-length": "{length} 個のログ"
+			},
+			"header-size": {
+				"options": {
+					"default": "デフォルト",
+					"medium": "普通",
+					"mini": "最小",
+					"small": "小さい"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "テーマ"
+				},
+				"list": {
+					"button": {
+						"is-active": "有効化",
+						"select": "選ぶ"
+					},
+					"column": {
+						"label": {
+							"preview": "プレビュー"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "テーマ"
+				}
+			},
+			"header-user": {
+				"hello": "こんにちは",
+				"notlogin": "ログインしていません",
+				"log-off": "ログアウト"
+			},
+			"menu-item": {
+				"label-default": "名前のないメニュー"
+			},
+			"menu-side": {
+				"empty": "サイドバーメニューなし"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "一時メニュー"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "検索ページ",
+				"tip": "ショートカット {open} で検索パネルを起動し、 {close} を押して閉じることができます"
+			},
+			"tabs": {
+				"close-all": "すべて閉じる",
+				"close-left": "左に閉じる",
+				"close-other": "その他を閉じる",
+				"close-right": "右に閉じる",
+				"label-default": "無名："
+			}
+		}
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"button": {
+						"cancel": "あきらめる",
+						"confirm": "ログアウトを確認"
+					},
+					"message": "現在のアカウントからログアウトできますか？開いているタブとユーザー設定が保存されます。",
+					"title": "確認操作"
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": "フォームの確認に失敗しました。確認してください"
+				},
+				"handle": {
+					"invalid": "無効な操作"
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": "ログアウトユーザーを放棄する"
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"component-size": {
+					"changed": {
+						"message": "グローバルコンポーネントサイズが変更されました",
+						"title": "プロンプト"
+					}
+				},
+				"show-log": {
+					"message": "ログ全体の内容がコンソールに出力されました",
+					"title": "ログ詳細"
+				},
+				"upload": {
+					"error": {
+						"message": "データのアップロードに失敗しました",
+						"title": "アップロードに失敗しました"
+					},
+					"start": {
+						"message": "データをアップロードしています。しばらくお待ちください",
+						"title": "アップロードを開始"
+					},
+					"success": {
+						"message": "データのアップロードに成功しました",
+						"title": "アップロード成功"
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": "を入力してください {name}"
+		}
+	},
+	"views": {
+		"system": {
+			"error": {
+				"404": {
+					"back": "家に戻る"
+				}
+			},
+			"log": {
+				"table": {
+					"empty-text": "ログ情報はまだありません",
+					"label": {
+						"component": "トリガーコンポーネント",
+						"message": "情報",
+						"more": "詳細を見る",
+						"time": "時間",
+						"url": "トリガーページ"
+					}
+				},
+				"notify" :{
+					"title": "ログの詳細",
+					"message": "ログの全内容がコンソールに出力されました"
+				},
+				"upload": {
+				    "title": "ログのアップロード",
+					"button": " {number} データをアップロード",
+					"message": "アップロード成功"
+				}
+			},
+			"login": {
+				"header": {
+					"title": "ビジネスプロセスプラットフォーム",
+					"placeholder": {
+						 "tenant": "テナントを選択してください"					
+					 }
+				 },
+				"footer": {
+					"button": {
+						"clause": "利用規約",
+						"help": "ヘルプ",
+						"privacy": "プライバシー"
+					},
+					"copyright": {
+						"author": "フェアリーエバー",
+						"content": "2018 D2プロジェクトオープンソース組織",
+						"copyright": "著作権"
+					}
+				},
+				"form": {
+					"title": "ユーザーパスワードログイン",
+					"button": {
+						"login": "ログイン"
+					},
+					"label": {
+						"code": "確認コード",
+						"password": "パスワード",
+						"username": "ユーザー名"
+					},
+					"placeholder": {
+						"code": "確認コード",
+						"password": "パスワード",
+						"username": "ユーザー名"
+					}
+				},
+				"motto": {
+					"text": "時間はすべての富の中で最も貴重な資産です。"
+				},
+				"options": {
+					"forget-password": "パスワードを忘れた",
+					"register": "登録ユーザー"
+				},
+				"quick-login": {
+					"dialog": {
+						"title": "すばやくユーザーを選択"
+					},
+					"toggle-button": {
+						"text": "すばやくユーザーを選択（テスト機能）"
+					}
+				}
+			}
+		},
+		"syplatform":{
+			"public": {
+				"confirm": {	
+				},
+				"message": {
+					"error": {
+					},
+					"special": {
+					}
+				},
+				"notify": {
+				}
+			},
+		   "admin": {
+				"dept":{
+				    "data":{
+					    "menuName": "顶级部门"
+					},
+					"header": {					   
+					   "button": {
+							"refresh": "刷新",
+							"add": "新增"
+						}
+					},
+					"footer": {						
+					},
+					"table":{
+					    "column":{
+						     "name": "名称",
+							 "sort": "排序",
+							 "operate": {
+								 "title": "操作",
+								 "button":{
+									 "Authorization": "授权" 
+								 }
+							 }							 
+						},
+						"filter":{
+						    "typeMap":{
+								"menu": "菜单",
+								"button": "按钮"
+							}
+						}
+					},
+					"dialog":{
+						"form": {
+							"title": {
+								"add": "新增部门",
+								"edit": "编辑部门"
+							},
+							"button": {
+								"confirm": "确定",
+								"cancel": "取消"
+							},
+							"label": {
+								"parentId": "上级部门",
+								"name": "部门名称",
+								"sort": "排序"
+							},
+							"placeholder": {
+								"parentId": "上级部门",
+								"name": "最多输入50个字符",
+								"sort": "只能输入正整数, 最大999"
+							},
+							"validate":{							   
+								"name": {
+									"required": "请输入部门名称",
+									"length": "长度在 2 到 50 个字符"
+								}
+							}
+						}
+					},
+					"message":{
+						"confirm": {
+							"delete": {
+								"title": "提示",
+								"message": "此操作将永久删除, 是否继续?"
+							},
+							"button": {
+							   "confirm": "确定",
+							   "cancel": "取消"
+							}
+						},
+						"message": {
+							"error": {
+								"sort":{
+								    "isInteger":"请输入数字值",
+									"valueRange":"大小在 1 到 999 之间"
+								}
+							},
+							"special": {
+							}
+						},
+						"notify": {
+						    "title": {
+								"success": "成功"								
+							},
+							"message":{
+							    "add": "创建成功",
+							    "update": "更新成功",
+								"delete": "删除成功"
+							}							
+						}
+					}
+				}
+		    }
+		}
+	}
+}

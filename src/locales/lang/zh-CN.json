@@ -1,0 +1,319 @@
+{
+	"_name": "zh-CN",
+	"_displayName":"简体中文",
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "全屏",
+				"exit": "退出全屏"
+			},
+			"header-log": {
+				"empty": "没有日志或异常",
+				"error-length": "包含 {length} 个异常",
+				"log-length": "{length} 条日志"
+			},
+			"header-size": {
+				"options": {
+					"default": "默认",
+					"medium": "中",
+					"mini": "最小",
+					"small": "小"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "主题"
+				},
+				"list": {
+					"button": {
+						"is-active": "已激活",
+						"select": "选择"
+					},
+					"column": {
+						"label": {
+							"preview": "预览"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "主题"
+				}
+			},
+			"header-user": {
+				"hello": "你好",
+				"notlogin": "未登录",
+				"log-off": "注销"
+			},
+			"menu-item": {
+				"label-default": "未命名菜单"
+			},
+			"menu-side": {
+				"empty": "没有侧栏菜单"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "临时菜单"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "搜索页面",
+				"tip": "你可以使用快捷键 {open} 唤醒搜索面板，按 {close} 关闭"
+			},
+			"tabs": {
+				"close-all": "全部关闭",
+				"close-left": "关闭左侧",
+				"close-other": "关闭其它",
+				"close-right": "关闭右侧",
+				"label-default": "未命名"
+			}
+		}
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"button": {
+						"cancel": "放弃",
+						"confirm": "确定注销"
+					},
+					"message": "注销当前账户吗?  打开的标签页和用户设置将会被保存。",
+					"title": "确认操作"
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": "表单校验失败，请检查"
+				},
+				"handle": {
+					"invalid": "无效的操作"
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": "放弃注销用户"
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"component-size": {
+					"changed": {
+						"message": "全局组件尺寸已经变更",
+						"title": "提示"
+					}
+				},
+				"show-log": {
+					"message": "完整的日志内容已经打印到控制台",
+					"title": "日志详情"
+				},
+				"upload": {
+					"error": {
+						"message": "数据上传失败",
+						"title": "上传失败"
+					},
+					"start": {
+						"message": "正在上传数据，请稍后",
+						"title": "开始上传"
+					},
+					"success": {
+						"message": "数据上传成功",
+						"title": "上传成功"
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": "请输入 {name}"
+		}
+	},
+	"views": {
+		"system": {
+			"error": {
+				"404": {
+					"back": "返回首页"
+				}
+			},
+			"log": {
+				"table": {
+					"empty-text": "暂无日志信息",
+					"label": {
+						"component": "触发组件",
+						"message": "信息",
+						"more": "查看详细信息",
+						"time": "时间",
+						"url": "触发页面"
+					}
+				},
+				"notify" :{
+					"title": "日志详情",
+					"message": "完整的日志内容已经打印到控制台"
+				},
+				"upload": {
+				    "title": "日志上传",
+					"button": "上传 {number} 条数据",
+					"message": "上传成功"
+				}
+			},
+			"login": {
+				"header": {
+					"title": "企业流程平台",
+					"placeholder": {
+						 "tenant": "请选择租户"					
+					 }
+				 },
+				"footer": {
+					"button": {
+						"clause": "条款",
+						"help": "帮助",
+						"privacy": "隐私"
+					},
+					"copyright": {
+						"author": "FairyEver",
+						"content": "2018 D2 Projects 开源组织出品",
+						"copyright": "Copyright"
+					}
+				},
+				"form": {
+					"title": "用户密码登陆",
+					"button": {
+						"login": "登录"
+					},
+					"label": {
+						"code": "验证码",
+						"password": "密码",
+						"username": "用户名"
+					},
+					"placeholder": {
+						"code": "验证码",
+						"password": "密码",
+						"username": "用户名"
+					}
+				},
+				"motto": {
+					"text": "时间是一切财富中最宝贵的财富。"
+				},
+				"options": {
+					"forget-password": "忘记密码",
+					"register": "注册用户"
+				},
+				"quick-login": {
+					"dialog": {
+						"title": "快速选择用户"
+					},
+					"toggle-button": {
+						"text": "快速选择用户（测试功能）"
+					}
+				}
+			}
+		},
+		"syplatform":{
+			"public": {
+				"confirm": {	
+				},
+				"message": {
+					"error": {
+					},
+					"special": {
+					}
+				},
+				"notify": {
+				}
+			},
+		   "admin": {
+				"dept":{
+				    "data":{
+					    "menuName": "顶级部门"
+					},
+					"header": {					   
+					   "button": {
+							"refresh": "刷新",
+							"add": "新增"
+						}
+					},
+					"footer": {						
+					},
+					"table":{
+					    "column":{
+						     "name": "名称",
+							 "sort": "排序",
+							 "operate": {
+								 "title": "操作",
+								 "button":{
+									 "Authorization": "授权" 
+								 }
+							 }							 
+						},
+						"filter":{
+						    "typeMap":{
+								"menu": "菜单",
+								"button": "按钮"
+							}
+						}
+					},
+					"dialog":{
+						"form": {
+							"title": {
+								"add": "新增部门",
+								"edit": "编辑部门"
+							},
+							"button": {
+								"confirm": "确定",
+								"cancel": "取消"
+							},
+							"label": {
+								"parentId": "上级部门",
+								"name": "部门名称",
+								"sort": "排序"
+							},
+							"placeholder": {
+								"parentId": "上级部门",
+								"name": "最多输入50个字符",
+								"sort": "只能输入正整数, 最大999"
+							},
+							"validate":{							   
+								"name": {
+									"required": "请输入部门名称",
+									"length": "长度在 2 到 50 个字符"
+								}
+							}
+						}
+					},
+					"message":{
+						"confirm": {
+							"delete": {
+								"title": "提示",
+								"message": "此操作将永久删除, 是否继续?"
+							},
+							"button": {
+							   "confirm": "确定",
+							   "cancel": "取消"
+							}
+						},
+						"message": {
+							"error": {
+								"sort":{
+								    "isInteger":"请输入数字值",
+									"valueRange":"大小在 1 到 999 之间"
+								}
+							},
+							"special": {
+							}
+						},
+						"notify": {
+						    "title": {
+								"success": "成功"								
+							},
+							"message":{
+							    "add": "创建成功",
+							    "update": "更新成功",
+								"delete": "删除成功"
+							}							
+						}
+					}
+				}
+		    }
+		}
+	}
+}

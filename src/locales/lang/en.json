@@ -1,0 +1,319 @@
+{
+	"_name": "en",
+	"_displayName":"English",
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "full screen",
+				"exit": "Exit full screen"
+			},
+			"header-log": {
+				"empty": "No logs or exceptions",
+				"error-length": "Contains {length} exceptions",
+				"log-length": "{length} logs"
+			},
+			"header-size": {
+				"options": {
+					"default": "Default",
+					"medium": "in",
+					"mini": "Minimum",
+					"small": "Small"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "Theme"
+				},
+				"list": {
+					"button": {
+						"is-active": "Activated",
+						"select": "Select"
+					},
+					"column": {
+						"label": {
+							"preview": "Preview"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "Theme"
+				}
+			},
+			"header-user": {
+				"hello": "Hello there",
+				"notlogin": "Not Login",
+				"log-off": "Logout"
+			},
+			"menu-item": {
+				"label-default": "Unnamed menu"
+			},
+			"menu-side": {
+				"empty": "No sidebar menu"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "Temporary menu"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "Search page",
+				"tip": "You can wake up the search panel with the shortcut {open} and press {close} to close"
+			},
+			"tabs": {
+				"close-all": "Close all",
+				"close-left": "Close left",
+				"close-other": "Close other",
+				"close-right": "Close right",
+				"label-default": "unnamed"
+			}
+		}
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"button": {
+						"cancel": "Give up",
+						"confirm": "Confirm logout"
+					},
+					"message": "Can I log out of my current account? The open tabs and user settings will be saved.",
+					"title": "Confirmation operation"
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": "Form verification failed, please check"
+				},
+				"handle": {
+					"invalid": "Invalid operation"
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": "Abandon logout user"
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"component-size": {
+					"changed": {
+						"message": "Global component size has changed",
+						"title": "prompt"
+					}
+				},
+				"show-log": {
+					"message": "The full log content has been printed to the console",
+					"title": "log details"
+				},
+				"upload": {
+					"error": {
+						"message": "Data upload failed",
+						"title": "Upload failed"
+					},
+					"start": {
+						"message": "Uploading data, please wait",
+						"title": "Start upload"
+					},
+					"success": {
+						"message": "Successful data upload",
+						"title": "Successful upload"
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": "{name} is required"
+		}
+	},
+	"views": {
+		"system": {
+			"error": {
+				"404": {
+					"back": "Back to home"
+				}
+			},			
+			"log": {
+				"table": {
+					"empty-text": "No log information yet",
+					"label": {
+						"component": "Trigger component",
+						"message": "Information",
+						"more": "check the detail information",
+						"time": "time",
+						"url": "Trigger page"
+					}
+				},
+				"notify" :{
+					"title": "log detail",
+					"message": "The entire log content has been printed to the console"
+				},
+				"upload": {
+				    "title": "log upload",
+					"button": "upload {number} data",
+					"message": "upload success"
+				}
+			},
+			"login": {
+				"header": {
+					"title": "Business Process Platform",
+					"placeholder": {
+						 "tenant": "select a tenant"
+					 }
+				 },
+				"footer": {
+					"button": {
+						"clause": "Terms",
+						"help": "Help",
+						"privacy": "Privacy"
+					},
+					"copyright": {
+						"author": "FairyEver",
+						"content": "2018 D2 Projects Open Source Organization",
+						"copyright": "copyright"
+					}
+				},
+				"form": {
+					"title": "User Login",
+					"button": {
+						"login": "Log In"
+					},
+					"label": {
+						"code": "Verification code",
+						"password": "Password",
+						"username": "Username"
+					},
+					"placeholder": {
+						"code": "Verification code",
+						"password": "Password",
+						"username": "Username"
+					}
+				},
+				"motto": {
+					"text": "Time is the most precious treasure of all wealth."
+				},
+				"options": {
+					"forget-password": "Forget password",
+					"register": "Registered user"
+				},
+				"quick-login": {
+					"dialog": {
+						"title": "Quickly select users"
+					},
+					"toggle-button": {
+						"text": "Quickly select users (test function)"
+					}
+				}
+			}
+		},
+		"syplatform":{
+			"public": {
+				"confirm": {	
+				},
+				"message": {
+					"error": {
+					},
+					"special": {
+					}
+				},
+				"notify": {
+				}
+			},
+		   "admin": {
+				"dept":{
+				    "data":{
+					    "menuName": "root department"
+					},
+					"header": {					   
+					   "button": {
+							"refresh": "刷新",
+							"add": "新增"
+						}
+					},
+					"footer": {						
+					},
+					"table":{
+					    "column":{
+						     "name": "名称",
+							 "sort": "排序",
+							 "operate": {
+								 "title": "操作",
+								 "button":{
+									 "Authorization": "授权" 
+								 }
+							 }							 
+						},
+						"filter":{
+						    "typeMap":{
+								"menu": "菜单",
+								"button": "按钮"
+							}
+						}
+					},
+					"dialog":{
+						"form": {
+							"title": {
+								"add": "新增部门",
+								"edit": "编辑部门"
+							},
+							"button": {
+								"confirm": "确定",
+								"cancel": "取消"
+							},
+							"label": {
+								"parentId": "上级部门",
+								"name": "部门名称",
+								"sort": "排序"
+							},
+							"placeholder": {
+								"parentId": "上级部门",
+								"name": "最多输入50个字符",
+								"sort": "只能输入正整数, 最大999"
+							},
+							"validate":{							   
+								"name": {
+									"required": "请输入部门名称",
+									"length": "长度在 2 到 50 个字符"
+								}
+							}
+						}
+					},
+					"message":{
+						"confirm": {
+							"delete": {
+								"title": "提示",
+								"message": "此操作将永久删除, 是否继续?"
+							},
+							"button": {
+							   "confirm": "确定",
+							   "cancel": "取消"
+							}
+						},
+						"message": {
+							"error": {
+								"sort":{
+								    "isInteger":"请输入数字值",
+									"valueRange":"大小在 1 到 999 之间"
+								}
+							},
+							"special": {
+							}
+						},
+						"notify": {
+						    "title": {
+								"success": "成功"								
+							},
+							"message":{
+							    "add": "创建成功",
+							    "update": "更新成功",
+								"delete": "删除成功"
+							}							
+						}
+					}
+				}
+		    }
+		}
+	}
+}
